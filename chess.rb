@@ -12,8 +12,8 @@ class Chess < Formula
 
 
   # TODO: Hardcoding to MacOSX, implement more when needed
-  url "https://github.com/dumbogo/chess/releases/download/v1.0.0/chess-v2.0.0-darwin-amd64.tar.gz"
-  sha256 "ac4647615348e2eede6c5ad5de159bb9f57d1bbf54692e52a45b687afae6744c"
+  url "https://github.com/dumbogo/chess/releases/download/v1.0.0/chess-v2.0.0-darwin-amd64.zip"
+  sha256 "b1421c49ca4a518b370f138ee5983b4214f441cf942f7c27e12f8a13b751ed73"
 
   bottle :unneeded
 
