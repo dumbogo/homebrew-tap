@@ -5,15 +5,15 @@ class Chess < Formula
   desc ""
   homepage "github.com/dumbogo/chess"
   url "github.com/dumbogo/chess"
-  version "1.0.0"
+  version "v1.0.0-alpha.1"
   license "MIT"
 
   # depends_on "cmake" => :build
 
 
   # TODO: Hardcoding to MacOSX, implement more when needed
-  url "https://github.com/dumbogo/chess/releases/download/v1.0.0/chess-v2.0.0-darwin-amd64.zip"
-  sha256 "b1421c49ca4a518b370f138ee5983b4214f441cf942f7c27e12f8a13b751ed73"
+  url "https://github.com/dumbogo/chess/releases/download/v1.0.0-alpha.1/chess-v1.0.0-alpha.1.darwin-amd64.zip"
+  sha256 "dd7e6bed17848e4f8aee1ea53873a87f5713eca5afc22ac8eb8a23c96f7d22f6"
 
   bottle :unneeded
 
