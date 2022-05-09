@@ -15,8 +15,6 @@ class Chess < Formula
   url "https://github.com/dumbogo/chess/releases/download/v1.0.0-alpha.1/chess-v1.0.0-alpha.1.darwin-amd64.zip"
   sha256 "dd7e6bed17848e4f8aee1ea53873a87f5713eca5afc22ac8eb8a23c96f7d22f6"
 
-  bottle :unneeded
-
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
