@@ -12,7 +12,7 @@ class Chess < Formula
 
 
   # TODO: Hardcoding to MacOSX, implement more when needed
-  url "https://github.com/dumbogo/chess/releases/download/v1.0.0-alpha.3/chess-v1.0.0-alpha.4.darwin-amd64.zip"
+  url "https://github.com/dumbogo/chess/releases/download/v1.0.0-alpha.4/chess-v1.0.0-alpha.4.darwin-amd64.zip"
   sha256 "e2b86436456a3f58040b5916fde617340c4305d191474d397f413dd274462ea4"
 
   def install
