@@ -5,15 +5,15 @@ class Chess < Formula
   desc ""
   homepage "github.com/dumbogo/chess"
   url "github.com/dumbogo/chess"
-  version "v1.0.0-alpha.3"
+  version "v1.0.0-alpha.4"
   license "MIT"
 
   # depends_on "cmake" => :build
 
 
   # TODO: Hardcoding to MacOSX, implement more when needed
-  url "https://github.com/dumbogo/chess/releases/download/v1.0.0-alpha.3/chess-v1.0.0-alpha.3.darwin-amd64.zip"
-  sha256 "196d4c5351d5756fe632aeb097d8b10f52bcdf2b039e9455ecfd07dfa5618199"
+  url "https://github.com/dumbogo/chess/releases/download/v1.0.0-alpha.3/chess-v1.0.0-alpha.4.darwin-amd64.zip"
+  sha256 "e2b86436456a3f58040b5916fde617340c4305d191474d397f413dd274462ea4"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
